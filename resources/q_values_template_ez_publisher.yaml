@@ -1,0 +1,63 @@
+publish_interval: 100
+settings:
+  /q_values/data[0]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[10]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[11]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[1]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[2]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[3]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[4]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[5]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[6]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[7]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[8]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+  /q_values/data[9]:
+    is_repeat: false
+    max: 3.14
+    min: -3.14
+texts:
+- /q_values/data[0]
+- /q_values/data[1]
+- /q_values/data[2]
+- /q_values/data[3]
+- /q_values/data[4]
+- /q_values/data[5]
+- /q_values/data[6]
+- /q_values/data[7]
+- /q_values/data[8]
+- /q_values/data[9]
+- /q_values/data[10]
+- /q_values/data[11]
