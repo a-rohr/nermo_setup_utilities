@@ -21,7 +21,7 @@ For the current implementation, the spine_vertical_flex has been omitted (not be
 data = [fl_shoulder, fl_elbow, fr_shoulder, fr_elbow, rl_hip, rl_knee, rr_hip, rr_knee, tail, neck_pan, head_tilt, spine_horizontal_flex, spine_vertical_flex]
 
 ## 1 Testing Servo Motors of Nermo
-To quickly test the servo motors (debugging and checking neutral positions to align with the simulation) the ROS package rqt_ez_publisher from **["here"](http://wiki.ros.org/rqt_ez_publisher)** can be used. 
+To quickly test the servo motors (debugging and checking neutral positions to align with the simulation) the ROS package rqt_ez_publisher from **[here](http://wiki.ros.org/rqt_ez_publisher)** can be used. 
 
 Install the rqt_ez_publisher package in the catkin workspace via git clone - making sure to pick the correct ROS version.
 Then run the rqt_ez_publisher (after starting all other nodes) using the following command:
