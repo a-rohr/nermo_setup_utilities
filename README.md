@@ -4,7 +4,7 @@ These resources make use of the fact that the RPi of Nermo is connected to the m
 
 On Nermo, the low_level_controller node is listening on the _ROS_TOPIC = "q_values"_ for the input commands of the servos.
 
-# IMPORTANT
+### IMPORTANT
 The topic _q_values_ is of type **std_msgs/Float32MultiArray** of size 12 in the unit type radians (conversion to degrees occurs on the low_level_controller). The **Float32 data[12]** addresses the individual servos in the following order.
 
 <details><summary>Click to expand for labelling key</summary>
@@ -30,3 +30,6 @@ Then run the rqt_ez_publisher (after starting all other nodes) using the followi
 Then load the configuration file (by clicking on the "settings" icon) from the _resources_ folder of this package called _q_values_template_ez_publisher.yaml_. 
 
 This should load up 12 sliders - one slider for each of the 12 servo in the **Float32 data[]** of _q_values_. Now each servo can be addressed and tested individually using the sliders.
+
+## 2 Monitoring anything ROS related
+One useful tool that allows quick and simple monitoring of rostopics, parameters, data flow, node activity and many more parameters is **[foxglove studio](https://foxglove.dev/)**. Check out the link for more details.
